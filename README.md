@@ -1,4 +1,4 @@
-# aws-static-website
+# How to host a Static Website in AWS with Tech-king
 ## My first project as a DevOps engineer 
 ### Below are the steps to take in other to carry out this project and also i will be attaching some pecture evidence
 1. create an S3 bucket, the following steps will guide you
@@ -41,6 +41,7 @@
 6. go to cloud front and click on create distribution
 - go back to your S3 bucket and copy the url and paste, removing the http//
 - tick "redirect http to https
+- scrow down to "Alternate domain name" and paste your doman name
 - choose the certificate you got
 - click create distribution and copy the url and test if it's working
 7. Finally go back to route 53 and click on create record

@@ -44,21 +44,21 @@
 - select CNAME record
 - paste the CNAME Name and record you copied respectively
 - click o create record
+![Screenshot (13)](https://github.com/Kingofhull/aws-static-website/assets/135378776/3ae45c6e-44df-466d-bd4f-a194a2d40364)
+![Screenshot (11)](https://github.com/Kingofhull/aws-static-website/assets/135378776/dcc2b2fd-6985-4e98-804c-bcb5bd02652d)
 6. go to cloud front and click on create distribution
 - go back to your S3 bucket and copy the url and paste, removing the http//
 - tick "redirect http to https
 - scrow down to "Alternate domain name" and paste your doman name
 - choose the certificate you got
 - click create distribution and copy the url and test if it's working
+![Screenshot (12)](https://github.com/Kingofhull/aws-static-website/assets/135378776/5405779d-4b78-45b4-a3c9-6b51dd4e6d92)
 7. Finally go back to route 53 and click on create record
 - at the record type, select "A-Route trafic......."
 - tick on Alias to put it on
 - select "Alis to cloudfront distribution"
 - choose the distribution you have created and click on create record.
 #### this will see your static website with your domain name working.
-![Screenshot (11)](https://github.com/Kingofhull/aws-static-website/assets/135378776/dcc2b2fd-6985-4e98-804c-bcb5bd02652d)
-![Screenshot (12)](https://github.com/Kingofhull/aws-static-website/assets/135378776/5405779d-4b78-45b4-a3c9-6b51dd4e6d92)
-![Screenshot (13)](https://github.com/Kingofhull/aws-static-website/assets/135378776/3ae45c6e-44df-466d-bd4f-a194a2d40364)
 ![Screenshot (14)](https://github.com/Kingofhull/aws-static-website/assets/135378776/261d4623-167d-44a4-bddc-26ae13f3343d)
 
 

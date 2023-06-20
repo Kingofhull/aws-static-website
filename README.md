@@ -50,4 +50,5 @@
 - choose the distribution you have created and click on create record.
 #### this will see your static website with your domain name working.
 
+![Screenshot (5)](https://github.com/Kingofhull/aws-static-website/assets/135378776/c9fa8138-18a0-4ab8-b02b-fc2f8aa84d3b)
 

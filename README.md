@@ -16,6 +16,8 @@
 - tick the "host a static website" option
 - in the index document type "index.html"
 - Error document is optional, you can leave it or type "error.html" and save changes
+![Screenshot (6)](https://github.com/Kingofhull/aws-static-website/assets/135378776/4a3a7ce2-65e8-4865-a27d-f8054177a6a5)
+![Screenshot (5)](https://github.com/Kingofhull/aws-static-website/assets/135378776/c9fa8138-18a0-4ab8-b02b-fc2f8aa84d3b)
 3. go to route 53
 - click on create hosted zone
 - input your domain name
@@ -51,8 +53,6 @@
 - choose the distribution you have created and click on create record.
 #### this will see your static website with your domain name working.
 
-![Screenshot (5)](https://github.com/Kingofhull/aws-static-website/assets/135378776/c9fa8138-18a0-4ab8-b02b-fc2f8aa84d3b)
-![Screenshot (6)](https://github.com/Kingofhull/aws-static-website/assets/135378776/4a3a7ce2-65e8-4865-a27d-f8054177a6a5)
 ![Screenshot (7)](https://github.com/Kingofhull/aws-static-website/assets/135378776/89a3fb74-6a15-4286-81b4-2f9574feb14f)
 ![Screenshot (8)](https://github.com/Kingofhull/aws-static-website/assets/135378776/34435d90-ea30-4041-9b2e-53e0ba6b18e7)
 ![Screenshot (9)](https://github.com/Kingofhull/aws-static-website/assets/135378776/cf38b4cc-d6d4-40fc-9a83-9487cdec8a46)

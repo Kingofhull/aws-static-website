@@ -35,6 +35,8 @@
 - in Validation method, choose DNS as it's faster
 - click on requet
 - copy out CNAME Name and CNAME value
+![Screenshot (7)](https://github.com/Kingofhull/aws-static-website/assets/135378776/89a3fb74-6a15-4286-81b4-2f9574feb14f)
+![Screenshot (8)](https://github.com/Kingofhull/aws-static-website/assets/135378776/34435d90-ea30-4041-9b2e-53e0ba6b18e7)
 5. now you have to create a record set and to do that:
 - go baack to Route 53 and click on hosted zone
 - click on the domain name you are working on in the hosted zone
@@ -54,9 +56,6 @@
 - select "Alis to cloudfront distribution"
 - choose the distribution you have created and click on create record.
 #### this will see your static website with your domain name working.
-
-![Screenshot (7)](https://github.com/Kingofhull/aws-static-website/assets/135378776/89a3fb74-6a15-4286-81b4-2f9574feb14f)
-![Screenshot (8)](https://github.com/Kingofhull/aws-static-website/assets/135378776/34435d90-ea30-4041-9b2e-53e0ba6b18e7)
 ![Screenshot (11)](https://github.com/Kingofhull/aws-static-website/assets/135378776/dcc2b2fd-6985-4e98-804c-bcb5bd02652d)
 ![Screenshot (12)](https://github.com/Kingofhull/aws-static-website/assets/135378776/5405779d-4b78-45b4-a3c9-6b51dd4e6d92)
 ![Screenshot (13)](https://github.com/Kingofhull/aws-static-website/assets/135378776/3ae45c6e-44df-466d-bd4f-a194a2d40364)
